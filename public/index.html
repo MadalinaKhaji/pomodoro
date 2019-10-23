@@ -6,10 +6,24 @@
         <title>Pomodoro App</title>
         <meta name="description" content="Pomodoro App">
         <meta name="author" content="maddie">
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" type="text/css" href="/styles.css">
     </head>
 
     <body>
-        <p>Welcome to the Pomodoro App.</p>
+        <h1>Pomodoro</h1>
+
+        <p id="timer">25 : 00 </p>
+
+        <img src="/img/green-tomato.png" height="75px">
+
+        <br><br>
+
+        <button onclick="startTimer()" id="startButton">Start</button>
+
+        <button onclick="cancelTimer()" id="cancelButton" class="hideElement">Cancel</button>
+
+        <p>Total time: 0 hours 0 min</p>
+
+        <script src="functions.js"></script>
     </body>
 </html>
