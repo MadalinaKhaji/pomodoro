@@ -145,3 +145,18 @@ input {
     -o-animation: rotating 2s linear infinite;
     animation: rotating 2s linear infinite;
 }
+
+@media only screen and (max-width: 768px) {
+    .container {
+        display: block;
+    }
+
+    .card {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .card:not(:last-child) {
+        display: none;
+    }
+}
